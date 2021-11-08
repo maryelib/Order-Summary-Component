@@ -1,0 +1,92 @@
+body {
+  background: url("images/pattern-background-desktop.svg") no-repeat;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  color: hsl(223, 47%, 23%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 450px;
+  margin: 6rem;
+  border-radius: 20px;
+  text-align: center;
+}
+/*top section*/
+.image-hero {
+  border-radius: 20px 20px 0 0;
+}
+.top-card {
+  line-height: 1.5;
+  margin: 1rem 3rem;
+}
+.summary, .plan-type {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.description {
+  opacity: 0.9;
+}
+/*middle section*/
+.plan {
+  display: flex;
+  margin: 0 3rem;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  color: hsl(224, 23%, 55%);
+}
+.image-music-note {
+  margin: 1rem;
+}
+.plan-change {
+  margin-left: 7rem;
+  font-size: small;
+  font-weight: 700;
+}
+.plan-change:hover {
+  color: hsl(245, 65%, 62%);
+  text-decoration: none;
+}
+/*bottom section*/
+.payment {
+  background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 0.9rem;
+    margin: 2rem 3rem;
+    border-radius: 10px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1em;
+    border: none;
+    box-shadow: 0 10px 40px 0 hsl(245deg 100% 85%);
+    cursor: pointer;
+}
+.payment:hover {
+  background-color: hsl(245, 65%, 62%);
+}
+.cancel {
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+/*Thank you Frontend Mentor*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+
+.attribution a {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
