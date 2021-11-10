@@ -16,6 +16,7 @@ body {
   width: 450px;
   margin: 6rem;
   border-radius: 20px;
+  box-shadow: 0 10px 40px 0 hsl(245deg 100% 90%);
   text-align: center;
 }
 /*top section*/
